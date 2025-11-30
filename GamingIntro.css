@@ -1,4 +1,4 @@
-
+/* Global styles */
 body {
   margin: 0;
   padding: 0;
@@ -8,9 +8,8 @@ body {
   line-height: 1;
   text-align: center;
   box-sizing: border-box;
-  /* prevent fixed header/footer from overlapping content */
-  padding-top: 120px; /* header height + gap */
-  padding-bottom: 100px; /* footer height + gap */
+  padding-top: 120px;
+  padding-bottom: 100px;
 }
 
 /* Header as banner */
@@ -141,8 +140,6 @@ header {
 }
 
 /* Add me here */   
-
-/* Boxed heading for Hobbies */
 .hobbies-heading-box {
   display: inline-block;
   background: #fff;
@@ -172,7 +169,6 @@ header {
   margin: 30px 0 0 0;
 }
 
-/* more inner space so content isn't cramped */
 .hobby-box {
   background: #fff;
   border-radius: 30px;
@@ -184,24 +180,22 @@ header {
   justify-content: flex-start;
   flex: 0 0 auto;
   width: 300px;
-  padding: 18px 20px;    /* was 10px; small, even padding */
+  padding: 18px 20px;
   box-sizing: border-box;
   height: 520px;
 }
 
-/* optional: add a bit of margin around inner content groups if needed */
 .hobby-img {
   width: 100%;
   max-width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 22px;
-  margin-bottom: 8px;    /* slightly larger gap from title */
+  margin-bottom: 8px;   
   background: #e3e3e3;
   box-shadow: 0 3px 10px rgba(0,0,0,0.07);
 }
 
-/* uniform pill size for all titles */
 .hobby-title {
   display: inline-flex;
   justify-content: center;
@@ -214,14 +208,13 @@ header {
   font-weight: 700;
   color: #2b2b2b;
   text-align: center;
-  min-width: 160px;      /* make all title boxes the same width */
+  min-width: 160px;
 }
 
-/* slightly more space for text block */
 .hobby-desc {
   font-size: 1rem;
   color: #3d3d3d;
-  margin: 14px 6px 0 6px;  /* tiny side margins so text doesn't hug border */
+  margin: 14px 6px 0 6px; 
   flex-grow: 1;
 }
 
@@ -232,7 +225,7 @@ header {
   text-align: center;
 }
 
-/* Footer behavior: stick to bottom of viewport */
+/* Footer styling */
 footer {
   position: fixed;
   left: 0;
@@ -248,7 +241,6 @@ footer {
   box-shadow: 0 -4px 14px rgba(0,0,0,0.08);
 }
 
-/* Footer */
 footer {
   background-color: #EFE9E3;
   color: #000000;
